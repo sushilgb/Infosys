@@ -13,7 +13,7 @@ public class FindStringProj
 			count++;
 			if(array[i].equalsIgnoreCase("HR"))
 			{
-				System.out.println(array[i]+"="+count);
+				System.out.println(array[i]+"="+countt);
 			}
 		}
 		
@@ -28,7 +28,7 @@ public class FindStringProj
 			{
 				if(array[i]=="l")
 				{
-					System.out.println(array[i]);
+					System.out.println(array[ii]);
 				}
 				
 			}
@@ -42,6 +42,8 @@ public class FindStringProj
 	{
 		FindStringProj obj=new FindStringProj();
 		
+		obj.setup2();
+		obj.setup2();
 		obj.setup2();
 		
 		
